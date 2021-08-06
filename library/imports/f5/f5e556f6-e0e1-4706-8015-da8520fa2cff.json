@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chugang",
+    "texture": "1d2c7f8a-2959-4ae6-83e4-e91d09c23939",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      272,
+      104
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      272,
+      104
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

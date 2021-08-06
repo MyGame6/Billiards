@@ -1,0 +1,107 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 448,
+      "y": 174,
+      "width": 1280,
+      "height": 856,
+      "layout": {
+        "type": "dock-h",
+        "children": [
+          {
+            "width": 204,
+            "height": 681,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 204,
+                "height": 338,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ]
+              },
+              {
+                "width": 204,
+                "height": 340,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "assets"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 304,
+            "height": 681,
+            "type": "panel",
+            "active": 0,
+            "children": [
+              "inspector",
+              "cocos-services"
+            ]
+          },
+          {
+            "width": 750,
+            "height": 681,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 750,
+                "height": 378,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "scene"
+                ]
+              },
+              {
+                "width": 750,
+                "height": 300,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline",
+                  "game-window"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "inspector",
+        "cocos-services",
+        "scene",
+        "console",
+        "timeline",
+        "game-window"
+      ]
+    },
+    "worker": {}
+  },
+  "panels": {
+    "project-settings": {
+      "x": 1035,
+      "y": 458,
+      "width": 600,
+      "height": 565
+    },
+    "preferences": {
+      "x": 672,
+      "y": 300,
+      "width": 600,
+      "height": 565
+    }
+  },
+  "panelLabelWidth": {}
+}
